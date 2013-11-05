@@ -1,0 +1,50 @@
+body {
+	margin: 0;
+	padding: 20px;
+	background-color: #000000;
+}
+
+a {
+	display: block;
+	margin-bottom: 20px;
+	color: #ffffff;
+}
+.text{
+	color:#ffffff;
+}
+
+canvas {
+	display: block;
+	position:fixed;   
+	bottom:0px;
+	width: 100%;
+}
+.lights{
+    background-image:url('../img/powerOff.png');
+    background-repeat:none;
+    width:200px;
+    height:200px;
+    margin: 0 auto;
+}
+.light{
+    background-image:url('../img/lightOff.png');
+    background-repeat:none;
+    width:288px;
+    height:877px;
+    margin-top: -100px;
+    z-index:-1;
+    position:relative;
+}
+.left{
+    float:left;
+}
+.right{
+    float:right;
+}
+.mau5{
+    background-image:url('../img/cubeOff.png');
+    width:640px;
+    height:427px;
+    margin: 0 auto;
+    margin-top:200px; 
+}
